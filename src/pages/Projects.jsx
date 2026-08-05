@@ -3,6 +3,15 @@ import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
+
+  {
+    title: 'Thumblify AI 🎨🤖',
+    desc: 'An AI-powered thumbnail generator that creates professional, click-worthy thumbnails in seconds.',
+    ss: '/Thumblify.png',
+    tech: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB Atlas', 'Cloudinary', 'Google Gemini Image API', 'Vercel'],
+    live: 'https://thumblify-red-ten.vercel.app/',
+    code: 'https://github.com/RahulDebnath007/Thumblify'
+  },
   {
     title: 'Bookshop Automation Software',
     desc: 'This project uses a combination of front-end technologies like HTML, CSS, and JavaScript for building the user interface, along with features like a login page, shopkeeper dashboard, and order management.',
