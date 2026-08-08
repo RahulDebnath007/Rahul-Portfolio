@@ -13,36 +13,12 @@ const PROJECTS = [
     code: 'https://github.com/RahulDebnath007/Thumblify'
   },
   {
-    title: 'Bookshop Automation Software',
-    desc: 'This project uses a combination of front-end technologies like HTML, CSS, and JavaScript for building the user interface, along with features like a login page, shopkeeper dashboard, and order management.',
-    ss: '/bookwala.png',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-    live: 'https://rahuldebnath007.github.io/Online-bookshop/scv.html',
-    code: 'https://github.com/RahulDebnath007/Online-bookshop.git'
-  },
-  {
   title: 'Movie Ticket Booking Application',
   desc: 'A dynamic movie booking app with real time details, responsive UI , seemless ticketing and robust error handling.',
   ss: '/movie.png',
   tech: ['React', 'Node.js', 'MongoDB', 'Clerk','OMDB API'],
   live: 'https://quickshow-eosin.vercel.app/',
   code: 'https://github.com/RahulDebnath007/Zenex.git'
-  },
-  {
-    title: ' AI Chat Application',
-    desc: 'a simple yet powerful chat application using React & Node.js, with a key focus on AI integration! 💡 This project was a great learning experience, blending frontend interactivity with backend intelligence.',
-    ss: '/devin.png',
-    tech: ['Node.js', 'MongoDB', 'React', 'Express'],
-    live: 'https://drive.google.com/file/d/1cDmnCid-cLyzHggexyfCdWCqgQ0F44b4/view',
-    code: 'https://github.com/RahulDebnath007/AI-DEVIN.git'
-  },
-  {
-  title: 'Personal-Ai-Assistent',
-  desc: 'Veda is a personal ai assistent...who perform “Weather in (City name)” (it gives response World wide) “Tell me joke" Or Tell Any ask ( Which gives response by AI) “Open youtube"(And many More opening command [ Facebook, Google, WhatsApp, Gmail, Instagram, News, Music ,Games].',
-  ss: '/Veda.png',
-  tech: ['React', 'Gemini API', 'Tailwind CSS'],
-  live: 'https://personal-ai-assistent-veda-rahul-debnaths-projects.vercel.app/',
-  code: 'https://github.com/RahulDebnath007/Personal-Ai-Assistent.git'
   },
   {
     title: ' AI Resume Analyser',
@@ -53,12 +29,40 @@ const PROJECTS = [
     code: 'https://github.com/RahulDebnath007/ai-resume-analyzer-main.git'
   },
   {
+    title: ' AI Chat Application',
+    desc: 'a simple yet powerful chat application using React & Node.js, with a key focus on AI integration! 💡 This project was a great learning experience, blending frontend interactivity with backend intelligence.',
+    ss: '/devin.png',
+    tech: ['Node.js', 'MongoDB', 'React', 'Express'],
+    live: 'https://drive.google.com/file/d/1cDmnCid-cLyzHggexyfCdWCqgQ0F44b4/view',
+    code: 'https://github.com/RahulDebnath007/AI-DEVIN.git'
+  },
+ 
+  
+  
+  {
+  title: 'Personal-Ai-Assistent',
+  desc: 'Veda is a personal ai assistent...who perform “Weather in (City name)” (it gives response World wide) “Tell me joke" Or Tell Any ask ( Which gives response by AI) “Open youtube"(And many More opening command [ Facebook, Google, WhatsApp, Gmail, Instagram, News, Music ,Games].',
+  ss: '/Veda.png',
+  tech: ['React', 'Gemini API', 'Tailwind CSS'],
+  live: 'https://personal-ai-assistent-veda-rahul-debnaths-projects.vercel.app/',
+  code: 'https://github.com/RahulDebnath007/Personal-Ai-Assistent.git'
+  },
+  
+  {
     title: 'Zentry -  Smooth-Scroll animation project',
     desc: 'It is a smooth-scroll animation project inspired by Zentry. Here we experience seemless smooth animation effect ',
     ss: '/zentry.png',
     tech: ['GSAP', 'React.js', 'Tailwind CSS'],
     live: 'https://award-winning-website-main-iota.vercel.app/',
     code: 'https://github.com/RahulDebnath007/award-winning-website-main.git'
+  },
+   {
+    title: 'Bookshop Automation Software',
+    desc: 'This project uses a combination of front-end technologies like HTML, CSS, and JavaScript for building the user interface, along with features like a login page, shopkeeper dashboard, and order management.',
+    ss: '/bookwala.png',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    live: 'https://rahuldebnath007.github.io/Online-bookshop/scv.html',
+    code: 'https://github.com/RahulDebnath007/Online-bookshop.git'
   },
   {
     title: 'Online footwear website',
