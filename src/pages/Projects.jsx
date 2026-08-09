@@ -29,6 +29,19 @@ const PROJECTS = [
     code: 'https://github.com/RahulDebnath007/ai-resume-analyzer-main.git'
   },
   {
+  title: 'Skew News — AI News Analysis Platform',
+
+  desc: 'An AI-powered news analysis platform that collects articles from multiple sources, analyzes them with Google Gemini, and provides AI-generated summaries, sentiment analysis, political framing estimates, confidence scores, framing notes, and loaded-term detection. Built with an automated news ingestion pipeline using Oxylabs, Supabase, and Next.js.',
+
+  ss: '/skew.png',
+
+  tech: ['Next.js', 'TypeScript', 'Gemini', 'Supabase', 'Oxylabs', 'Tailwind CSS', 'PostgreSQL', 'Posthog'],
+
+  live: 'https://skew-news-rahul.vercel.app/',
+
+  code: 'https://github.com/RahulDebnath007/skew_news'
+},
+  {
     title: ' AI Chat Application',
     desc: 'a simple yet powerful chat application using React & Node.js, with a key focus on AI integration! 💡 This project was a great learning experience, blending frontend interactivity with backend intelligence.',
     ss: '/devin.png',
