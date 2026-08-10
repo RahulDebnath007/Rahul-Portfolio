@@ -1,4 +1,4 @@
-import { PORTFOLIO_CONTEXT } from './src/data/portfolioContext.js';
+import { PORTFOLIO_CONTEXT } from './src/data/portfolioContext.mjs';
 
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/interactions';
 
