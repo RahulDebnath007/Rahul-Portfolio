@@ -1,16 +1,21 @@
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
 import { chatCore } from "./server-chat-core.mjs";
 
-function portfolioApiPlugin() {
+function portfolioApiPlugin(env) {
   return {
     name: "portfolio-api",
+
     configureServer(server) {
       server.middlewares.use("/api/chat", async (req, res, next) => {
         if (req.method !== "POST") {
           res.statusCode = 405;
           res.setHeader("Content-Type", "application/json");
-          res.end(JSON.stringify({ error: "Method not allowed." }));
+          res.end(
+            JSON.stringify({
+              error: "Method not allowed.",
+            })
+          );
           return;
         }
 
@@ -27,19 +32,26 @@ function portfolioApiPlugin() {
 
               const result = await chatCore({
                 message: parsed.message,
-                apiKey: process.env.GEMINI_API_KEY,
-                model:
-                  process.env.GEMINI_MODEL || "gemini-3.6-flash",
+                apiKey: env.GEMINI_API_KEY,
+                model: env.GEMINI_MODEL || "gemini-3.6-flash",
               });
 
               res.statusCode = result.status;
-              res.setHeader("Content-Type", "application/json");
+              res.setHeader(
+                "Content-Type",
+                "application/json"
+              );
+
               res.end(JSON.stringify(result.body));
             } catch (error) {
-              console.error("API error:", error);
+              console.error("AI API error:", error);
 
               res.statusCode = 500;
-              res.setHeader("Content-Type", "application/json");
+              res.setHeader(
+                "Content-Type",
+                "application/json"
+              );
+
               res.end(
                 JSON.stringify({
                   error: "Internal server error.",
@@ -55,7 +67,16 @@ function portfolioApiPlugin() {
   };
 }
 
-export default defineConfig({
-  plugins: [react(), portfolioApiPlugin()],
-  base: "./",
+export default defineConfig(({ mode }) => {
+  // Load .env / .env.local
+  const env = loadEnv(mode, process.cwd(), "");
+
+  return {
+    plugins: [
+      react(),
+      portfolioApiPlugin(env),
+    ],
+
+    base: "./",
+  };
 });
