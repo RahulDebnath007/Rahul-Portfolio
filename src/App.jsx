@@ -11,6 +11,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import SkillNetwork from './pages/Skills'  
+import AIChat from './components/AIChat/AIChat'
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+      <AIChat />
       <footer className="footer">
         © {new Date().getFullYear()} Rahul Debnath. All rights reserved.
       </footer>
