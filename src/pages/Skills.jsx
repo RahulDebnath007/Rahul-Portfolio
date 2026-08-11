@@ -67,6 +67,22 @@ const SKILLS = [
     name: "GitHub",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
   },
+  {
+  name: "TypeScript",
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+  },
+  {
+  name: "Next.js",
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+  },
+  {
+  name: "Vercel",
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+  },
+  {
+  name: "Gemini",
+  logo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Google%20Gemini%20icon%202025.svg",
+  },
 ];
 
 const ROWS = [
