@@ -693,7 +693,7 @@ portfolio/
 
 # 🎯 Result
 
-Rahul's portfolio now includes a **portfolio-aware AI assistant**.
+My portfolio now includes a **portfolio-aware AI assistant**.
 
 Visitors can interact with the portfolio conversationally instead of
 manually searching through every section.
