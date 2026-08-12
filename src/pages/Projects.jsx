@@ -57,7 +57,7 @@ const PROJECTS = [
   desc: 'Veda is a personal ai assistent...who perform “Weather in (City name)” (it gives response World wide) “Tell me joke" Or Tell Any ask ( Which gives response by AI) “Open youtube"(And many More opening command [ Facebook, Google, WhatsApp, Gmail, Instagram, News, Music ,Games].',
   ss: '/Veda.png',
   tech: ['React', 'Gemini API', 'Tailwind CSS'],
-  live: 'https://personal-ai-assistent-veda-rahul-debnaths-projects.vercel.app/',
+  live: 'https://personal-ai-assistent.vercel.app/',
   code: 'https://github.com/RahulDebnath007/Personal-Ai-Assistent.git'
   },
   
