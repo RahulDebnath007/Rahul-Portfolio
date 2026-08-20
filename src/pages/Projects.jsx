@@ -108,6 +108,23 @@ const PROJECTS = [
     code: "https://github.com/RahulDebnath007/railway-booking-system.git",
   },
   {
+  title: "Naruto Card Battle",
+  desc: "A real-time 1v1 multiplayer card battle game built with React, TypeScript, Node.js, WebSockets, and Redis. Features server-authoritative game logic, matchmaking, real-time state synchronization, attack and defense mechanics, and responsive gameplay.",
+  ss: "/naruto-card-battle.png",
+  tech: [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "WebSockets",
+    "Redis",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  live: "https://real-time-multiplayer-card-game.vercel.app/",
+  code: "https://github.com/RahulDebnath007/Real-Time-Multiplayer-Card-Game.git",
+},
+  {
     title: "Bookshop Automation Software",
     desc: "This project uses a combination of front-end technologies like HTML, CSS, and JavaScript for building the user interface, along with features like a login page, shopkeeper dashboard, and order management.",
     ss: "/bookwala.png",
